@@ -22,7 +22,7 @@ extends Node3D
 @export_range(0.0, 10.0, 0.1) var roll_strength := 3.0
 @export_range(0.0, 5.0, 0.05) var roll_damping := 1.5
 
-@export_range(0.0, 5.0, 0.05) var body_linear_damp := 0.35
+@export_range(0.0, 5.0, 0.05) var body_linear_damp := 1.0
 @export_range(0.0, 5.0, 0.05) var body_angular_damp := 0.9
 
 @onready var simulator: PhysicalBoneSimulator3D = $snake_export/Skeleton3D/PhysicalBoneSimulator3D
